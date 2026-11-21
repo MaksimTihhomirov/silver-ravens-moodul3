@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | The Silver Ravens</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header container">
+        <a href="index.html" class="logo">
+            <img src="assets/images/SilverRavens-logo.svg"
+                 alt="The Silver Ravens logo">
+        </a>
+
+        <nav class="navigation" aria-label="Main navigation">
+            <a href="index.html">HOME</a>
+            <a href="shop.html">SHOP</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="cart.html">CART</a>
+        </nav>
+    </header>
+
+    <main class="container contact-page">
+
+        <section class="contact-heading">
+
+            <h1>CONTACT US</h1>
+
+            <p>
+                Have a question or want to get in touch?<br>
+                Send us a message and we'll get back to you!
+            </p>
+
+        </section>
+
+        <form class="contact-form" id="contact-form">
+
+            <div class="form-group">
+
+                <label for="name">FULL NAME</label>
+
+                <input type="text"
+                       id="name"
+                       name="name"
+                       placeholder="Enter your full name"
+                       required>
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="email">EMAIL ADDRESS</label>
+
+                <input type="email"
+                       id="email"
+                       name="email"
+                       placeholder="Enter your email address"
+                       required>
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="subject">SUBJECT</label>
+
+                <input type="text"
+                       id="subject"
+                       name="subject"
+                       placeholder="Enter subject"
+                       required>
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="message">MESSAGE</label>
+
+                <textarea id="message"
+                          name="message"
+                          placeholder="Write your message here..."
+                          required></textarea>
+
+            </div>
+
+            <button type="submit" class="button send-message">
+                SEND MESSAGE
+            </button>
+
+            <p id="form-status" role="status"></p>
+
+        </form>
+
+    </main>
+
+    <footer class="footer container">
+
+        <div class="footer-top">
+
+            <div class="footer-brand">
+
+                <a href="index.html">
+                    <img src="assets/images/SilverRavens-logo.svg"
+                         alt="The Silver Ravens logo"
+                         class="footer-logo">
+                </a>
+
+                <div class="footer-brand-text">
+                    <h2>THE SILVER RAVENS</h2>
+                    <p>Official merchandise store</p>
+                </div>
+
+            </div>
+
+            <nav class="footer-navigation" aria-label="Footer navigation">
+                <a href="index.html">HOME</a>
+                <a href="shop.html">SHOP</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="cart.html">CART</a>
+            </nav>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 The Silver Ravens. All rights reserved.</p>
+        </div>
+
+    </footer>
+
+    <script src="js/contact.js"></script>
+
+</body>
+</html>
