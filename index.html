@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Silver Ravens</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <header class="header container">
+        <a href="index.html" class="logo">
+            <img src="assets/images/SilverRavens-logo.svg"
+                 alt="The Silver Ravens logo">
+        </a>
+
+        <nav class="navigation" aria-label="Main navigation">
+            <a href="index.html">HOME</a>
+            <a href="shop.html">SHOP</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="cart.html">CART</a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1>THE SILVER<br> RAVENS</h1>
+                <p>Official Silver Ravens merchandise</p>
+
+                <a href="shop.html" class="button">
+                    SHOP NOW
+                </a>
+            </div>
+
+            <img class="hero-logo"
+                 src="assets/images/SilverRavens-logo.svg"
+                 alt="Silver Ravens emblem">
+        </section>
+
+        <section class="featured-products">
+
+            <div class="section-header">
+                <h2>FEATURED PRODUCTS</h2>
+
+                <div class="slider-controls">
+                    <button class="slider-button" id="prev-product"
+                            aria-label="Previous products">
+                        &#10094;
+                    </button>
+
+                    <button class="slider-button" id="next-product"
+                            aria-label="Next products">
+                        &#10095;
+                    </button>
+                </div>
+            </div>
+
+            <div class="product-grid" id="featured-grid">
+
+                <a href="product.html?id=tshirt" class="product-card">
+                    <img src="assets/images/SILVER-RAVENS-TSHIRT-BLACK-FRONT.png"
+                         alt="Silver Ravens T-shirt">
+
+                    <h3>SILVER RAVENS T-SHIRT</h3>
+                    <p class="product-price">$29.99</p>
+                </a>
+
+                <a href="product.html?id=hoodie" class="product-card">
+                    <img src="assets/images/SILVER-RAVENS-HOODIE-FRONT.png"
+                         alt="Silver Ravens hoodie">
+
+                    <h3>SILVER RAVENS HOODIE</h3>
+                    <p class="product-price">$49.99</p>
+                </a>
+
+                <a href="product.html?id=cap" class="product-card">
+                    <img src="assets/images/SILVER-RAVENS-CAP.png"
+                         alt="Silver Ravens cap">
+
+                    <h3>SILVER RAVENS CAP</h3>
+                    <p class="product-price">$22.99</p>
+                </a>
+
+            </div>
+
+            <div class="view-products">
+                <a href="shop.html" class="button">
+                    VIEW ALL PRODUCTS
+                </a>
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
