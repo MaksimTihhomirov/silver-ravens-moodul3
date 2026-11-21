@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product | The Silver Ravens</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/script.js" defer></script>
+    <script src="js/product.js" defer></script>
+</head>
+<body>
+
+    <header class="header container">
+
+        <a href="index.html" class="logo">
+            <img src="assets/images/SilverRavens-logo.svg"
+                 alt="The Silver Ravens logo">
+        </a>
+
+        <nav class="navigation" aria-label="Main navigation">
+            <a href="index.html">HOME</a>
+            <a href="shop.html">SHOP</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="cart.html">CART</a>
+        </nav>
+
+    </header>
+
+    <main class="container product-page">
+
+        <div class="breadcrumbs">
+            <a href="index.html">Home</a> /
+            <a href="shop.html">Shop</a> /
+            <span id="breadcrumb-product"></span>
+        </div>
+
+        <section class="product-layout">
+
+            <div class="product-gallery">
+
+                <img id="main-product-image"
+                     class="main-product-image"
+                     alt="Product image">
+
+                <div class="product-thumbnails"
+                     id="product-thumbnails">
+                </div>
+
+            </div>
+
+            <div class="product-details">
+
+                <h1 id="product-name"></h1>
+
+                <p id="product-price" class="detail-price"></p>
+
+                <p id="product-description"
+                   class="product-description"></p>
+
+                <div class="product-options" id="size-section">
+
+                    <h2>SELECT SIZE</h2>
+
+                    <div class="size-options" id="size-options">
+                    </div>
+
+                </div>
+
+                <div class="product-options">
+
+                    <h2>SELECT COLOR</h2>
+
+                    <div class="color-options" id="color-options">
+                    </div>
+
+                </div>
+
+                <button class="button add-to-cart" id="add-to-cart">
+                    ADD TO CART
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer container">
+
+        <div class="footer-top">
+
+            <div class="footer-brand">
+
+                <a href="index.html">
+                    <img src="assets/images/SilverRavens-logo.svg"
+                         alt="Silver Ravens logo"
+                         class="footer-logo">
+                </a>
+
+                <div class="footer-brand-text">
+                    <h2>THE SILVER RAVENS</h2>
+                    <p>Official merchandise store</p>
+                </div>
+
+            </div>
+
+            <nav class="footer-navigation"
+                 aria-label="Footer navigation">
+
+                <a href="index.html">HOME</a>
+                <a href="shop.html">SHOP</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="cart.html">CART</a>
+
+            </nav>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 The Silver Ravens. All rights reserved.</p>
+        </div>
+
+    </footer>
+
+</body>
+</html>

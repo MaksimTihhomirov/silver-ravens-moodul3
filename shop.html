@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shop | The Silver Ravens</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <header class="header container">
+
+        <a href="index.html" class="logo">
+            <img src="assets/images/SilverRavens-logo.svg"
+                 alt="The Silver Ravens logo">
+        </a>
+
+        <nav class="navigation" aria-label="Main navigation">
+            <a href="index.html">HOME</a>
+            <a href="shop.html">SHOP</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="cart.html">CART</a>
+        </nav>
+
+    </header>
+
+    <main class="container shop-page">
+
+        <section class="shop-heading">
+
+            <h1>OFFICIAL MERCH</h1>
+
+            <p>Represent The Silver Ravens with our exclusive merchandise.</p>
+
+        </section>
+
+        <div class="shop-filters">
+
+            <select id="category-filter" aria-label="Filter by category">
+                <option value="all">All Categories</option>
+                <option value="clothing">Clothing</option>
+                <option value="accessories">Accessories</option>
+                <option value="gaming">Gaming</option>
+            </select>
+
+            <select id="price-sort" aria-label="Sort by price">
+                <option value="default">Sort by: Price</option>
+                <option value="low">Price: Low to High</option>
+                <option value="high">Price: High to Low</option>
+            </select>
+
+        </div>
+
+        <section class="product-grid shop-grid"
+                 id="shop-grid"
+                 aria-label="Shop products">
+
+        </section>
+
+    </main>
+
+    <footer class="footer container">
+
+        <div class="footer-top">
+
+            <div class="footer-brand">
+
+                <a href="index.html">
+                    <img src="assets/images/SilverRavens-logo.svg"
+                         alt="The Silver Ravens logo"
+                         class="footer-logo">
+                </a>
+
+                <div class="footer-brand-text">
+                    <h2>THE SILVER RAVENS</h2>
+                    <p>Official merchandise store</p>
+                </div>
+
+            </div>
+
+            <nav class="footer-navigation"
+                 aria-label="Footer navigation">
+
+                <a href="index.html">HOME</a>
+                <a href="shop.html">SHOP</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="cart.html">CART</a>
+
+            </nav>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 The Silver Ravens. All rights reserved.</p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
